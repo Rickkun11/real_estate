@@ -7,8 +7,8 @@ export default async function Weather() {
 	const data = await getWeatherData()
 	return (
 
-		<div className="flex flex-col items-center justify-center w-screen min-h-screen text-gray-700 p-10 bg-slate-100">
-			<div className="w-full max-w-screen-sm bg-white p-10 rounded-xl ring-8 ring-white ring-opacity-40">
+		<div className="flex flex-col items-center justify-center min-h-screen text-gray-700 p-10 bg-slate-100">
+			<div className=" bg-white p-10 rounded-xl ring-8 ring-white ring-opacity-40">
 				<div className="flex justify-between">
 					<div className="flex flex-col">
 						<span className="text-6xl font-bold">{[data.hourly.temperature_2m.slice(-1)[0]]}{data.hourly_units.temperature_2m}</span>

@@ -3,7 +3,7 @@ export default function Media() {
         <> < div className = "" > <section className="text-gray-400 bg-slate-950 min-h-screen">
             <div className="flex flex-col mx-auto px-4 py-16 lg:flex ">
                 <div
-                    className="flex flex-row justify-between gap-10 h-20 text-xl pt-2 mx-auto max-w-5xl">
+                    className="flex flex-row justify-between gap-2 h-20 text-xl pt-2 mx-auto max-w-5xl max-sm:hidden max-md:hidden max-lg:hidden">
                     <div className="flex flex-row gap-5 p-3">
                         <span className="text-white text-5xl font-extrabold">11K+</span>
                         <span className="text-base">Happy Customer with our services</span>
@@ -17,11 +17,11 @@ export default function Media() {
                         <span className="text-base">Happy Customer with our services</span>
                     </div>
                 </div>
-                <hr className="border-1 mt-10 border-slate-200 w-[160vh] mx-auto"></hr>
+                <hr className="border-1 mt-20 border-slate-200 w-[160vh] mx-auto"></hr>
             </div>
 
             <div>
-                <div className="flex flex-row gap-20 mx-auto max-w-5xl text-start">
+                <div className="flex flex-row gap-20 mx-auto max-w-5xl text-start sm:px-16 max-sm:flex-col max-sm:text-center max-md:flex-col max-md:text-center max-lg:flex-col max-lg:text-center">
                     <h1
                         className="bg-white bg-clip-text text-5xl text-transparent sm:text-5xl font-semibold">
                         Where Comfort Meets Convenience
@@ -35,7 +35,7 @@ export default function Media() {
             </div>
 
 
-            <div className="mt-10 mx-auto justify-center px-4 py-16 lg:flex">
+            <div className="mt-10 mx-auto justify-center px-4 py-16 flex">
                 <section className="absolute justify-center mx-auto text-gray-400 bg-slate-300 rounded-[40px] w-10/12 h-4/6 ">
                     <div className="mx-auto px-4 py-10">
 

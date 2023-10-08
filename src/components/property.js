@@ -2,7 +2,7 @@
 export default function Property() {
     return (
     <>
-        <section className="flex flex-col mt-[250px] justify-start item-start p-16 text-start text-gray-400">
+        <section className="flex flex-col mt-[270px] justify-start item-start p-16 text-start text-gray-400">
         <div className="mx-auto text-center self-center">
                 <h1
                     className="bg-black bg-clip-text text-3xl text-transparent sm:text-4xl font-semibold">

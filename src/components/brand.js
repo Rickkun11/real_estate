@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function Brand() {
     return (
     <>
-        <Image src="/brand.png" width={1000} height={1000} alt="Brand Picture" className='flex item-center p-4 pl-7 text-start text-gray-400 rounded-[20px] mx-auto w-11/12 text-center gap-5'/>
+        <Image src="/brand.png" width={1000} height={1000} alt="Brand Picture" className='flex justify-center item-center p-4 pl-7 text-start text-gray-400 rounded-[20px] mx-auto w-11/12 text-center gap-5'/>
 
-        <section className="flex justify-start item-start p-16 text-start text-gray-400">
+        <section className="flex justify-start item-start p-16 text-start text-gray-400 max-sm:text-center max-md:flex-col max-md:text-center max-lg:flex-col max-lg:text-center">
 
             <div className="mx-auto text-start self-center">
                 <h1
@@ -23,7 +23,7 @@ export default function Brand() {
                 </p>
                 <div className="mt-8 flex flex-wrap justify-start gap-4">
                     <a
-                        className="block w-full rounded-[13px] px-10 py-3 bg-black text-sm font-medium text-white hover:bg-transparent hover:text-black hover:border focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+                        className="block text-center rounded-[13px] px-10 py-3 bg-black text-sm font-medium text-white hover:bg-transparent hover:text-black hover:border focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
                         href="/get-started">
                             Contact Us
                     </a>
@@ -32,7 +32,7 @@ export default function Brand() {
             </div>
 
 
-            <div className="translate-x-20 -translate-y-20 flex flex-col px-7 py-5 w-auto self-end text-gray-400 bg-white rounded-[20px]">
+            <div className="translate-x-20 -translate-y-20 flex flex-col px-7 py-5 w-auto self-end text-gray-400 bg-white rounded-[20px] max-sm:translate-y-20 max-sm:translate-x-12 max-sm:self-start max-md:hidden max-lg:hidden ">
                 <span className="text-blue-800 text-3xl sm:text-4xl font-semibold">
                     22k+
                 </span>
@@ -41,7 +41,7 @@ export default function Brand() {
 
 
             </div>
-            <div className="flex justify-center gap-5 w-80 h-[70vh] text-gray-400 bg-slate-300 rounded-[20px]"></div>
+            <div className="flex justify-center gap-5 w-80 h-[70vh] text-gray-400 bg-slate-300 rounded-[20px] max-sm:w-64 max-md:flex-col max-md:text-center max-md:hidden max-lg:hidden"></div>
         </section>
     </>
     );

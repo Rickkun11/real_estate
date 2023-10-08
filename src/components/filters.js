@@ -2,7 +2,7 @@
 export default function Filters() {
     return (
         <section className="">
-            <div className="mb-6 flex item-center p-2 pl-6 text-start text-gray-400 bg-white rounded-[20px] mx-auto w-11/12 text-center gap-5">
+            <div className="mb-6 flex item-center p-2 pl-6 text-start text-gray-400 bg-white rounded-[20px] mx-auto w-11/12 text-center gap-5 max-sm:hidden max-md:hidden max-lg:hidden">
                 <label className=" p-4">
                     <span
                         className="flex text-sm font-medium text-slate-700">
